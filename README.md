@@ -1,4 +1,4 @@
-# TravelClear
+# Mapify
  
 ## Inspiration
 When we heard about this weekend's theme of exploration, we all instantly thought of a tourist spot recommendation site because we understand just how tedious it is to plan out a trip to a city that you and (probably) no one else you know have visited before.
