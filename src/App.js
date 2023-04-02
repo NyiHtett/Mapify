@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styles from "./Search.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-
+import Footer from "./Footer/Footer";
 const api = {
   key: "9e2983c82d8b54ca8900c0ad139e7db9",
   base: "https://api.openweathermap.org/data/2.5/",
@@ -58,15 +58,7 @@ function App() {
         </div>) : ("")}
 
       </header>
-      <footer className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <p>© 2023 Your Website Name. All Rights Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+      <Footer/>
     </div>
   );
 }
